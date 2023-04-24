@@ -21,12 +21,12 @@ const video = [
   {
     id: 2,
     title: 'Video2',
-    url: vedio 2,
+    url: vedio2,
   },
   {
     id: 3,
     title: 'Video3',
-    url: vedio 3,
+    url: vedio3,
   },
 ];
 const Video = () => {
