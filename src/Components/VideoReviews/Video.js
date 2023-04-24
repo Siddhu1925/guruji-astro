@@ -6,13 +6,13 @@ import ReactPlayer from 'react-player';
 import prev from '../../assets/prev.svg'
 import next from '../../assets/next.svg'
 import sale from '../../assets/ads.svg'
-import video1 from '../../assets/video1.mp4'
-import video2 from '../../assets/video2.mp4'
-import video3 from '../../assets/video3.mp4'
+import video1 from '../../assets/vedio 1.mp4'
+import video2 from '../../assets/vedio 2.mp4'
+import video3 from '../../assets/vedio 3.mp4'
 
 
 
-const videos = [
+const video = [
   {
     id: 1,
     title: 'Video 1',
