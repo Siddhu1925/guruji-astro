@@ -16,16 +16,16 @@ const video = [
   {
     id: 1,
     title: 'Video 1',
-    url: vedio 1,
+    url: vedio1,
   },
   {
     id: 2,
-    title: 'Video 2',
+    title: 'Video2',
     url: vedio 2,
   },
   {
     id: 3,
-    title: 'Video 3',
+    title: 'Video3',
     url: vedio 3,
   },
 ];
