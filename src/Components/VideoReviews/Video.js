@@ -6,9 +6,9 @@ import ReactPlayer from 'react-player';
 import prev from '../../assets/prev.svg'
 import next from '../../assets/next.svg'
 import sale from '../../assets/ads.svg'
-import vedio 1 from '../../assets/vedio 1.mp4'
-import vedio 2 from '../../assets/vedio 2.mp4'
-import vedio 3 from '../../assets/vedio 3.mp4'
+import vedio1 from '../../assets/vedio 1.mp4'
+import vedio2 from '../../assets/vedio 2.mp4'
+import vedio3 from '../../assets/vedio 3.mp4'
 
 
 
