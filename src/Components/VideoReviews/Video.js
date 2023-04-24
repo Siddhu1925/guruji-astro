@@ -6,9 +6,9 @@ import ReactPlayer from 'react-player';
 import prev from '../../assets/prev.svg'
 import next from '../../assets/next.svg'
 import sale from '../../assets/ads.svg'
-import video1 from '../../assets/vedio 1.mp4'
-import video2 from '../../assets/vedio 2.mp4'
-import video3 from '../../assets/vedio 3.mp4'
+import vedio 1 from '../../assets/vedio 1.mp4'
+import vedio 2 from '../../assets/vedio 2.mp4'
+import vedio 3 from '../../assets/vedio 3.mp4'
 
 
 
@@ -16,32 +16,32 @@ const video = [
   {
     id: 1,
     title: 'Video 1',
-    url: video1,
+    url: vedio 1,
   },
   {
     id: 2,
     title: 'Video 2',
-    url: video2,
+    url: vedio 2,
   },
   {
     id: 3,
     title: 'Video 3',
-    url: video3,
+    url: vedio 3,
   },
 ];
 const Video = () => {
-  const [currentVideo, setCurrentVideo] = useState(videos[0]);
+  const [currentVideo, setCurrentVideo] = useState(vedio[0]);
 
   const prevSlide = () => {
-    const currentIndex = videos.findIndex((video) => video.id === currentVideo.id);
-    const prevIndex = currentIndex === 0 ? videos.length - 1 : currentIndex - 1;
-    setCurrentVideo(videos[prevIndex]);
+    const currentIndex = videos.findIndex((video) => vedio.id === currentVideo.id);
+    const prevIndex = currentIndex === 0 ? vedio.length - 1 : currentIndex - 1;
+    setCurrentVideo(vedio[prevIndex]);
   };
 
   const nextSlide = () => {
-    const currentIndex = videos.findIndex((video) => video.id === currentVideo.id);
-    const nextIndex = currentIndex === videos.length - 1 ? 0 : currentIndex + 1;
-    setCurrentVideo(videos[nextIndex]);
+    const currentIndex = vedio.findIndex((vedio) => vedio.id === currentVideo.id);
+    const nextIndex = currentIndex === vedio.length - 1 ? 0 : currentIndex + 1;
+    setCurrentVideo(vedio[nextIndex]);
   };
   
 
