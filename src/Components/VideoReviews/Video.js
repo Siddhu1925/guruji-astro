@@ -33,7 +33,7 @@ const Video = () => {
   const [currentVideo, setCurrentVideo] = useState(vedio[0]);
 
   const prevSlide = () => {
-    const currentIndex = videos.findIndex((video) => vedio.id === currentVideo.id);
+    const currentIndex = vedio.findIndex((video) => vedio.id === currentVideo.id);
     const prevIndex = currentIndex === 0 ? vedio.length - 1 : currentIndex - 1;
     setCurrentVideo(vedio[prevIndex]);
   };
